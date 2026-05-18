@@ -7,8 +7,8 @@ class Mb < Formula
 
   url "https://api.github.com/repos/OpenCow42/metaBrain/releases/assets/423161822",
       headers: github_auth_headers + ["Accept: application/octet-stream"]
-  sha256 "4000c0f97756ba528a06a2c830b138720dff9f4e06e40dc65a8ae2aaf84d2400"
   version "1.0.0"
+  sha256 "4000c0f97756ba528a06a2c830b138720dff9f4e06e40dc65a8ae2aaf84d2400"
   license "BSD-3-Clause"
 
   def install
