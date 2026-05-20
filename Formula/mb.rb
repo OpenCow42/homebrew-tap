@@ -5,10 +5,10 @@ class Mb < Formula
   github_token = ENV["HOMEBREW_GITHUB_API_TOKEN"] || ENV["GITHUB_TOKEN"]
   github_auth_headers = github_token.to_s.empty? ? [] : ["Authorization: Bearer #{github_token}"]
 
-  url "https://api.github.com/repos/OpenCow42/metaBrain/releases/assets/424119154",
+  url "https://api.github.com/repos/OpenCow42/metaBrain/releases/assets/425272785",
       headers: github_auth_headers + ["Accept: application/octet-stream"]
-  version "1.1.0"
-  sha256 "e24ecae9a852e982a1ca354796daad84d71c60eb55427c09a15270455b759609"
+  version "1.1.1"
+  sha256 "e8d6ac51d2d3e688dec8a67de927da3f526c05c91bb4af6edb05a878158e693c"
   license "BSD-3-Clause"
 
   def install
