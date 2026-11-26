@@ -2,8 +2,8 @@ class Mb < Formula
   desc "Local document memory CLI for agents and tools"
   homepage "https://github.com/OpenCow42/metaBrain"
 
-  url "https://github.com/OpenCow42/metaBrain/releases/download/1.3.0/mb-1.3.0-macos-universal.zip"
-  sha256 "4a1c79eb6d2bc90fa573122542c9f477016cfeaa6c0319438ff82e9a5ccfa3fd"
+  url "https://github.com/OpenCow42/metaBrain/releases/download/1.4.0/mb-1.4.0-macos-universal.zip"
+  sha256 "8fcedf9366a7e0ce8a5bfd38b40f3e8a22f5f79476bc0b01e2af1efd66fc2aaf"
   license "BSD-3-Clause"
 
   def install
